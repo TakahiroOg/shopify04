@@ -13,7 +13,7 @@
 }
 .thumb {
   padding: 0 5px;
-  max-width: 18%;
+  /* max-width: 18%; */
   cursor: pointer;
 }
 .slick-arrow {
