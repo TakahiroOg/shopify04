@@ -140,7 +140,7 @@
 
           <div class="review-card row">
             <div class="review-img">
-              <img src="{{ section.settings.review_image | image_url }}" alt="">
+              <img src="{{ section.settings.review_image | image_url: width: 300 }}" alt="" class="">
             </div>
             <div class="review-content">
               <span class="review">{{ product.metafields.custom.review }}</span>
