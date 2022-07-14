@@ -1,5 +1,11 @@
 {
   "sections": {
+    "main": {
+      "type": "main-product-2",
+      "settings": {
+        "review_image": "shopify:\/\/shop_images\/review_img.jpg"
+      }
+    },
     "1657804615e08ea7b4": {
       "type": "image-with-text",
       "blocks": {
@@ -44,16 +50,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "main": {
-      "type": "main-product-2",
-      "settings": {
-        "review_image": "shopify:\/\/shop_images\/review_img.jpg"
-      }
     }
   },
   "order": [
-    "1657804615e08ea7b4",
-    "main"
+    "main",
+    "1657804615e08ea7b4"
   ]
 }
