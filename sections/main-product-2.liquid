@@ -50,9 +50,9 @@
       </div>
       <div class="product-info">
         <div class="mobile-hide">
-         <h1 class="product-headline">{{product.metafields.custom.headline}}</h1>
+         <h1 class="product-headline">{{product.title}}</h1>
         </div>
-        <div class="product-subtitle">{{product.metafields.custom.product_subtitle}}</div>
+        {% comment %} <div class="product-subtitle">{{product.metafields.custom.product_subtitle}}</div> {% endcomment %}
 
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
           {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
@@ -140,7 +140,7 @@
 
           <div class="review-card row">
             <div class="review-img">
-              <img src="{{ '3.jpeg' | asset_url }}" alt="">
+              <img src="{{ section.settings.review_image }}" alt="">
             </div>
             <div class="review-content">
               <span class="review">{{ product.metafields.custom.review }}</span>
@@ -154,3 +154,17 @@
     </div>
   </div>
 </section>
+
+{% schema %}
+{
+  "name": "Review",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "review_image",
+      "label": "review image"
+    }
+  ]
+}
+{% endschema %}
