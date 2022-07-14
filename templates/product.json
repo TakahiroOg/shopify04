@@ -48,6 +48,7 @@
     "main": {
       "type": "main-product-2",
       "settings": {
+        "review_image": "shopify:\/\/shop_images\/review_img.jpg"
       }
     }
   },
