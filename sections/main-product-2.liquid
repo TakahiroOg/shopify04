@@ -140,7 +140,7 @@
 
           <div class="review-card row">
             <div class="review-img">
-              <img src="{{ section.settings.review_image }}" alt="">
+              <img src="{{ section.settings.review_image | image_url}}" alt="">
             </div>
             <div class="review-content">
               <span class="review">{{ product.metafields.custom.review }}</span>
@@ -170,6 +170,7 @@
           "id": "heading",
           "default": "Image slide",
           "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
-        }]
+        }
+	]
 }
 {% endschema %}
