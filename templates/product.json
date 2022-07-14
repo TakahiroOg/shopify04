@@ -3,8 +3,6 @@
     "main": {
       "type": "main-product-2",
       "settings": {
-        "image": "shopify:\/\/shop_images\/review_img.jpg",
-        "heading": "Image slide"
       }
     }
   },
