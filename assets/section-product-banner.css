@@ -1,0 +1,18 @@
+.banner-bg {
+  background-color: #eafdff;
+}
+.banner-inner {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 60px 0;
+}
+.banner-video {
+  flex: 0 0 45%;
+  text-align: center;
+  position: relative;
+}
+video {
+  max-width: 100%;
+  display: block;
+}

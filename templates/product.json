@@ -1,9 +1,13 @@
 {
   "sections": {
+    "banner": {
+      "type": "product-banner",
+      "settings": {}
+    },
     "main": {
       "type": "main-product-2",
       "settings": {
-        "review_image": "shopify:\/\/shop_images\/review_img.jpg"
+        "review_image": "shopify://shop_images/review_img.jpg"
       }
     },
     "1657804615e08ea7b4": {
@@ -18,7 +22,7 @@
         "16578046150029a46c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
@@ -52,8 +56,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "1657804615e08ea7b4"
-  ]
+  "order": ["banner", "main", "1657804615e08ea7b4"]
 }

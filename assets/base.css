@@ -2754,8 +2754,8 @@ details-disclosure > details {
   letter-spacing: 0.1em;
   border-radius: 28px;
   padding: 0 24px;
-  background-color: #009dc8;
-  border: 1px solid #009dc8;
+  background-color: #00a7d9;
+  border: 1px solid #00a7d9;
   color: #fff;
   font-weight: 500;
   line-height: 1.2;
@@ -2980,10 +2980,10 @@ img {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1;
   background-color: #fa9137;
   border: 1px solid #fa9137;
-  padding: 12px 30px;
+  padding: 19px 43px;
   border-radius: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -2991,4 +2991,32 @@ img {
 }
 .get-btn {
   position: relative;
+}
+
+.product-form__input input[type="radio"] + .color-swatch {
+  border: 1px solid #d7d7d7; /* Change this hex code to change the color of the non-active/non-selected variant */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 30px;
+  display: inline-block;
+}
+.product-form__input input[type="radio"]:checked + .color-swatch,
+.product-form__input input[type="radio"]:hover + .color-swatch {
+  border: 1px solid #000; /* Change this hex code to change the color of the active/selected variant */
+}
+.product-form__input input[type="radio"] + .swatch {
+  border: 3px solid #d7d7d7; /* Change this hex code to change the color of the non-active/non-selected variant */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: #000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-form__input input[type="radio"]:checked + .swatch,
+.product-form__input input[type="radio"]:hover + .swatch {
+  border: 3px solid #ccd1d1; /* Change this hex code to change the color of the active/selected variant */
+  background: none;
 }
