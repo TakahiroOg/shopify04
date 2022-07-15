@@ -2,12 +2,13 @@
   "sections": {
     "banner": {
       "type": "product-banner",
-      "settings": {}
+      "settings": {
+      }
     },
     "main": {
       "type": "main-product-2",
       "settings": {
-        "review_image": "shopify://shop_images/review_img.jpg"
+        "review_image": "shopify:\/\/shop_images\/review_img.jpg"
       }
     },
     "1657804615e08ea7b4": {
@@ -16,34 +17,26 @@
         "16578046150029a46c-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Get a Whiter and Healthier Smile in Minutes!"
           }
         },
         "16578046150029a46c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>One of the first impressions when you meet someone, is a smile, don't let plaque spoil the moment!<\/p>",
             "text_style": "body"
-          }
-        },
-        "16578046150029a46c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         }
       },
       "block_order": [
         "16578046150029a46c-0",
-        "16578046150029a46c-1",
-        "16578046150029a46c-2"
+        "16578046150029a46c-1"
       ],
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "big_header": false,
+        "big_header": true,
         "mobile_reverse": false,
         "is_video": false,
         "desktop_content_position": "top",
@@ -54,7 +47,150 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1657858054ff3c9bf9": {
+      "type": "image-with-text",
+      "blocks": {
+        "165785805429db7d48-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Super Effective"
+          }
+        },
+        "165785805429db7d48-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Effectively separate dental plaque, dental calculus and remove hard tartar easily from teeth, preventing gum disease.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "165785805429db7d48-0",
+        "165785805429db7d48-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "big_header": true,
+        "mobile_reverse": false,
+        "is_video": false,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657858240268864ad": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657858240b27a43ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smile Confidently"
+          }
+        },
+        "1657858240b27a43ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bring back your smile and confidence. Get those pearly white teeth you've been dreaming for.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1657858240b27a43ad-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#submit"
+          }
+        }
+      },
+      "block_order": [
+        "1657858240b27a43ad-0",
+        "1657858240b27a43ad-1",
+        "1657858240b27a43ad-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "big_header": true,
+        "mobile_reverse": false,
+        "is_video": false,
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657858777bd9a3a44": {
+      "type": "multicolumn",
+      "blocks": {
+        "165785877748008ba0-0": {
+          "type": "column",
+          "settings": {
+            "title": "More Flexible And Safer For Use",
+            "text": "<p>Ultrasonic technology, 12000 times per minute high-intensity frequency, effectively smash the stubborn calculus, reduce the damages to the enamel and gum, which may be caused by manual dental tools.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165785877748008ba0-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tooth_cleaner_3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165785877748008ba0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Easy & Simple",
+            "text": "<p>No need for expensive dentist visits. Take care of your teeth at home with Sonic White<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165785877748008ba0-0",
+        "165785877748008ba0-1",
+        "165785877748008ba0-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
     }
   },
-  "order": ["banner", "main", "1657804615e08ea7b4"]
+  "order": [
+    "banner",
+    "main",
+    "1657804615e08ea7b4",
+    "1657858054ff3c9bf9",
+    "1657858240268864ad",
+    "1657858777bd9a3a44"
+  ]
 }
