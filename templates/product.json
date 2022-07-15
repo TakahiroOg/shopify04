@@ -33,19 +33,20 @@
         "16578046150029a46c-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "big_header": true,
         "mobile_reverse": false,
         "is_video": false,
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 0
       }
     },
     "1657858054ff3c9bf9": {
@@ -70,13 +71,14 @@
         "165785805429db7d48-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/1_b982f737-3dc1-4ba6-baef-79c5113056c9.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "big_header": true,
         "mobile_reverse": false,
         "is_video": false,
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -104,7 +106,7 @@
         "1657858240b27a43ad-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "GET YOURS NOW",
             "button_link": "#submit"
           }
         }
