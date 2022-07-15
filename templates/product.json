@@ -117,13 +117,14 @@
         "1657858240b27a43ad-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/11_copy.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "big_header": true,
         "mobile_reverse": false,
         "is_video": false,
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
