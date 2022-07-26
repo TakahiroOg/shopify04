@@ -1448,6 +1448,17 @@ button.shopify-payment-button__button--unbranded {
   }
 }
 
+.get-btn.loading {
+  color: transparent;
+  position: relative;
+}
+
+@media screen and (forced-colors: active) {
+  .get-btn.loading {
+    color: rgb(var(--color-foreground));
+  }
+}
+
 .loading > .loading-overlay__spinner {
   top: 50%;
   left: 50%;
@@ -1462,10 +1473,17 @@ button.shopify-payment-button__button--unbranded {
   width: fit-content;
 }
 
+.get-btn > .loading-overlay__spinner .spinner {
+  width: fit-content;
+}
+
 .button.loading > .loading-overlay__spinner .path {
   stroke: rgb(var(--color-button-text));
 }
 
+.get-btn > .loading-overlay__spinner .path {
+  stroke: rgb(var(--color-button-text));
+}
 /* Button - social share */
 
 .share-button {
