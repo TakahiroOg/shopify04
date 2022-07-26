@@ -1424,7 +1424,6 @@ button.shopify-payment-button__button--unbranded {
 /* Button - other */
 
 .button:disabled,
-.button[aria-disabled="true"],
 .button.disabled,
 .customer button:disabled,
 .customer button[aria-disabled="true"],
